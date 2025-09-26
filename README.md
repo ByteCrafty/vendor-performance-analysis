@@ -8,3 +8,18 @@ Detecting underperforming brands/vendors needing price or promotional adjustment
 Assessing the impact of bulk purchases on costs.
 Evaluating unsold capital and inventory efficiency.
 Comparing profitability across vendors to guide better sourcing decisions.
+
+## Business Problem
+Effective inventory and sales management is critical in retail/wholesale. Companies risk losses from:
+Inefficient pricing strategies
+Poor inventory turnover
+Vendor dependency
+High freight costs
+This analysis provides actionable insights into vendor performance to support procurement, pricing, and sales strategy decisions.
+
+## Tech Stack
+Python → Data ingestion, preprocessing (Pandas, SQLAlchemy, Logging)
+SQL (SQLite) → Data cleaning, aggregation, KPI calculations
+Matplotlib & Seaborn → Exploratory Data Analysis (EDA) visualizations
+Power BI → Dashboard creation and visualization
+Pandas / Jupyter Notebook → Data exploration and feature creation
