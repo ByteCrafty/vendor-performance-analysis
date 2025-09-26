@@ -32,3 +32,31 @@ Source:
 - Purchase_Prices → Standard cost & pricing info (unique vendor-brand)
 - Vendor_Invoice → Aggregated vendor invoice data (PO-level with freight)
 - Sales → Actual sales transactions (quantity sold, sales dollars, revenue)
+
+## KPIs Tracked
+- Total Sales
+- Total Purchases
+- Gross Profit
+- Profit Margin %
+- Unsold Capital
+- Top Vendors by Sales
+- Top Brands by Sales
+- Low Performing Vendors / Brands
+- Purchase Contribution %
+
+## Process Workflow
+1. Data Ingestion
+- Loaded multiple CSV files into SQLite database using Python (Pandas + SQLAlchemy).
+- Implemented logging for error handling and process traceability.
+2. Data Cleaning & Preparation
+- Used Pandas for cleaning: removed duplicates, handled missing values, standardized date formats.
+- Merged purchase data with price tables for cost validation.
+- Created aggregated vendor-level summary tables in SQL for faster reporting.
+3. Exploratory Data Analysis (EDA)
+- Used Pandas for summary statistics (mean, median, mode, correlations).
+- Plotted vendor/brand-wise sales trends, distributions, and profit margins using Matplotlib & Seaborn.
+- Detected outliers and seasonality patterns in sales.
+4. Dashboard & Reporting
+- Built an interactive Power BI dashboard.
+- Visualized KPIs such as Sales, Purchases, Profit, Margin %, Vendor Rankings, Unsold Capital.
+- Created drilldowns for Top/Low Performing Vendors & Brands.
