@@ -63,3 +63,21 @@ Source:
 
 ## Dashboard Preview
 <img width="1127" height="675" alt="image" src="https://github.com/user-attachments/assets/0beab81a-3eb7-4571-8254-57fb056b3a65" />
+
+## Insights
+- Certain vendors contribute high sales but low profit margins → need renegotiation or promotions.
+- Freight cost significantly affects vendor profitability.
+- Few brands dominate sales share, but smaller vendors provide higher margins.
+- Unsold inventory capital can be reduced by improving vendor selection.
+
+## Conclusion
+This project demonstrates an end-to-end data analysis workflow for evaluating vendor performance in the retail and wholesale industry.
+Starting from raw CSV ingestion into a SQLite database, the data was cleaned, transformed, and aggregated using Python (Pandas, SQLAlchemy) and SQL.
+Through Exploratory Data Analysis (EDA) with Pandas, Matplotlib, and Seaborn, important trends, seasonality, and profitability patterns were uncovered.
+An interactive Power BI dashboard was then built to present actionable KPIs such as Total Sales, Purchases, Gross Profit, Profit Margin, Unsold Capital, and Vendor/Brand Rankings.
+The insights revealed:
+- Certain vendors drive high sales but yield lower profit margins due to high costs or freight.
+- Freight costs significantly impact vendor profitability and must be considered in vendor evaluation.
+- A small set of brands contributes the majority of sales, but smaller vendors sometimes provide better profit margins.
+- Monitoring unsold capital helps reduce inventory holding costs and free up tied working capital.
+Overall, this analysis provides a robust framework for procurement optimization, vendor negotiations, and pricing strategy improvements. It highlights how combining Python, SQL, and Power BI can deliver valuable insights that support data-driven business decisions.
