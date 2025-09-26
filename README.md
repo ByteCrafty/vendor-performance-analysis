@@ -60,3 +60,6 @@ Source:
 - Built an interactive Power BI dashboard.
 - Visualized KPIs such as Sales, Purchases, Profit, Margin %, Vendor Rankings, Unsold Capital.
 - Created drilldowns for Top/Low Performing Vendors & Brands.
+
+## Dashboard Preview
+<img width="1127" height="675" alt="image" src="https://github.com/user-attachments/assets/0beab81a-3eb7-4571-8254-57fb056b3a65" />
